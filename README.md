@@ -1,8 +1,11 @@
 The QMC4AQML dataset
 
 Authors: Bing Huang^1; O. Anatole von Lilienfeld^2; Jaron T. Krogel^3; Anouar Benali^3
+
 ^1 University of Vienna
+
 ^2 University of Toronto
+
 ^3 Oak Ridge National Laboratory
 
 
