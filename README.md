@@ -1,14 +1,10 @@
 The QMC4AQML dataset
 
 Authors: 
-
-Bing Huang (University of Vienna, bing.huang@univie.ac.at)
-
-O. Anatole von Lilienfeld (University of Toronto, anatole.vonlilienfeld@utoronto.ca)
-
-Jaron T. Krogel (Oak Ridge National Laboratory, krogeljt@ornl.gov) 
-
-Anouar Benali (Oak Ridge National Laboratory, benali@anl.gov)
+- Bing Huang (University of Vienna, bing.huang@univie.ac.at)
+- O. Anatole von Lilienfeld (University of Toronto, anatole.vonlilienfeld@utoronto.ca)
+- Jaron T. Krogel (Oak Ridge National Laboratory, krogeljt@ornl.gov) 
+- Anouar Benali (Oak Ridge National Laboratory, benali@anl.gov)
 
 
 # General
