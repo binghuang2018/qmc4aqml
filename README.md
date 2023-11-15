@@ -11,7 +11,6 @@ Authors:
 
 - Purpose: used for testing multi-level quantum machine learning model aiming for an accuracy at the quantum Monte Carlo (QMC) level
 - Molecular data are provided in the extxyz format (https://wiki.fysik.dtu.dk/ase/ase/io/formatoptions.html#extxyz).
-- Single point energies (SPE) are in the unit Hartree
 - Geometries were optimzed at the level of B3LYP/cc-pVTZ
 - All FN-QMC energies were obtained using the B3LYP/cc-pVTZ nodal surfaces.
     - retrievable through the key `qmc_b3lyp` in the extxyz file
@@ -25,7 +24,7 @@ Authors:
 
 # Test molecules
 
-- located in the folder `targets/`
+- located in the folder `targets/` (all energies in Hartree)
 - totalling 50 molecules, drawn randomly from the QM9 dataset
 - calculated at FN-QMC level and various other cheaper levels
 
@@ -34,11 +33,11 @@ Authors:
 
 Two sets of amons are available:
 
-- graph amons (with QMC energy) of the QM9 dataset (in the folder `amons-ni5-qmc/`)
+- graph amons (with QMC energy) of the QM9 dataset (in the folder `amons-ni5-qmc/`) (all energies in kcal/mol)
     - made up of at most 5 heavy atoms
     - totalling 1175
     - amounts to force-field global minima
-- conformer amons (without QMC energy) for the 50 test molecules (in `amons-ni7/`)
+- conformer amons (without QMC energy) for the 50 test molecules (in `amons-ni7/`) (all energies in Hartree)
     - the maximal number of heavy atoms is now 7
     - include all conformational degrees of freedom
         - that is, multiple conformer amons may share the same SMILES string
